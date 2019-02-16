@@ -28,9 +28,9 @@ class Header extends Component {
                 Home
               </Link>
             </li>
-            <li class="nav-item headerNavigationGap dropdown">
+            <li className="nav-item headerNavigationGap dropdown">
               <Link
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
                 to="#"
                 role="button"
@@ -39,18 +39,18 @@ class Header extends Component {
               >
                 Movies
               </Link>
-              <div class="dropdown-menu">
-                <Link class="dropdown-item" to="#">
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="#">
                   New In Theaters
                 </Link>
-                <Link class="dropdown-item" to="#">
+                <Link className="dropdown-item" to="#">
                   Coming Soon
                 </Link>
-                <Link class="dropdown-item" to="#">
+                <Link className="dropdown-item" to="#">
                   Highly rated
                 </Link>
-                <div class="dropdown-divider" />
-                <Link class="dropdown-item" to="#">
+                <div className="dropdown-divider" />
+                <Link className="dropdown-item" to="#">
                   Nigerian Movies
                 </Link>
               </div>
