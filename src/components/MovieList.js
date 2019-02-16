@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './movieStyle.css'
 const MoviesList = () => {
   return (
-    <div class="container">
+    <div className="container">
       <div className="row">
         <div className="col-lg-3 col-md-3 col-6 ">
         <Link to="/detail/Antman" style={{color:'black',textDecoration:'none'}}> 
@@ -18,11 +18,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2016 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -41,11 +41,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2017 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -65,11 +65,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2016 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star " />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star " />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -88,11 +88,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2016 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star  checked" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star  checked" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -111,11 +111,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2018 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star  checked" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star  checked" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -135,11 +135,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2018 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star  checked" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star  checked" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -159,11 +159,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2016 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star  " />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star  " />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>
@@ -183,11 +183,11 @@ const MoviesList = () => {
               <p className="text-center"> Year: 2016 </p>
               <p className="text-center">
                 {" "}
-                rating: <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star checked" />
-                <span class="fa fa-star  checked" />
-                <span class="fa fa-star" />
+                rating: <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star checked" />
+                <span className="fa fa-star  checked" />
+                <span className="fa fa-star" />
               </p>
             </div>
           </div>

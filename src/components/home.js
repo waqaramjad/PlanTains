@@ -77,10 +77,10 @@ class Home extends Component {
         </div>
      <div className="container-fluid">
         {this.props.AllNews
-          ? this.props.AllNews.map(x => {
+          ? this.props.AllNews.map((x, i) => {
               console.log(x);
               return (
-                <div className="row" style={{marginTop:'10px'}}>
+                <div key={i} className="row" style={{marginTop:'10px'}}>
                   <div className="col-md-10 offset-md-1">
                   <MovieNews  heading={x.headline} frontImg={x.frontImg} description={x.description} date={x.articleCreated}
                   />
