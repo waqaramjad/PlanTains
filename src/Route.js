@@ -7,7 +7,6 @@ import Signin from "./components/Sign-in";
 import AboutUs from "./components/AboutUs";
 import Header from './Layout/Header';
 import HeaderOne from './Layout/HeaderFirst';
-import Movie from './components/Movie';
 import Footer from './Layout/Footer';
 import Contact from './components/Contact.js';
 import News from "./components/News";
@@ -17,6 +16,10 @@ import FullNews from './components/FullNews';
 import history from "./History";
 
 // export const history = createBrowserHistory()
+
+// Pages :: Routes
+import MovieRoute from './page/Movie';
+
 
 class Routers extends Component {
   render() {
@@ -33,7 +36,8 @@ class Routers extends Component {
             {/* <Route exact path="/contact" component={AboutUs} /> */}
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/Contact" component={Contact} />
-            <Route exact path="/detail/:moviename" component={Movie}/>
+            <Route {...MovieRoute} />
+
             <Route exact path="/news" component={News} />
             <Route exact path="/fullnews/:newstitle" component={FullNews}/>
             <div className="fl-page-footer-wrap">
