@@ -160,3 +160,12 @@ h3 {
   .h1 small {
   font-size: 24px;
   }
+
+.rating-rate {
+  color: yellow;
+  font-size: 1.5rem;
+  min-width: 131px;
+}
+.rateg-btn {
+padding: 0px;
+}
