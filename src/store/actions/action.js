@@ -8,13 +8,12 @@ var config = {
   // projectId: "paperchatapp",
   // storageBucket: "paperchatapp.appspot.com",
   // messagingSenderId: "269488541938"
-  apiKey: "AIzaSyDRF28m54jiKyALkC1OX3YOpm6JAD-PmLg",
-    authDomain: "friedplantainsmovies.firebaseapp.com",
-    databaseURL: "https://friedplantainsmovies.firebaseio.com",
-    projectId: "friedplantainsmovies",
-    storageBucket: "friedplantainsmovies.appspot.com",
-    messagingSenderId: "982575628534"
-};
+  apiKey: "AIzaSyDCXZpRDkDicK39Gp_AqP1cWikfyRKo4iE",
+  authDomain: "dua-app-51848.firebaseapp.com",
+  databaseURL: "https://dua-app-51848.firebaseio.com",
+  projectId: "dua-app-51848",
+  storageBucket: "dua-app-51848.appspot.com",
+  messagingSenderId: "513131247433"};
 firebase.initializeApp(config);
 
 export function changeName(value) {
