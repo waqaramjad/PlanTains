@@ -78,3 +78,6 @@ body {
     padding-bottom: 216px;
   }
 }
+* {
+  box-sizing: content-box;
+}
