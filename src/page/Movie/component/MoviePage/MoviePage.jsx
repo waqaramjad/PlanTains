@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import AddtoWatchlist from '../AddtoWatchlist'
+import MovieComment from '../MovieComment'
+import MovieCommentList from '../MovieCommentList'
 import PictureHolder from '../PictureHolder'
 import MovieMeta from '../MovieMeta'
 import MovieThumbPreview from '../MovieThumbPreview'
@@ -18,7 +20,7 @@ class MoviePage extends React.Component {
   }
 
   render() {
-    const { loading, error,  title, discription, trailerUrl, thumbsnail, meta } = this.state
+    const { loading, error,  title, discription, trailerUrl, thumbsnail, meta, movieID } = this.state
     if (loading) {
       return <div>loading...</div>
     }
@@ -57,6 +59,21 @@ class MoviePage extends React.Component {
             </div>
           </div>
         </div>
+        <br />
+        <hr />
+        <br />
+        {
+          !!(movieID) ?
+        <div className="row">
+              <div className="col p-0">
+            <MovieCommentList movieID={movieID} />
+              </div>
+              <div className="col p-0">
+            <MovieComment movieID={movieID} />
+              </div>
+        </div> : null
+        }
+
       </div>
     );
   }

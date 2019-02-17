@@ -20,7 +20,8 @@ export const defaultState = {
     discription: '',
     trailerUrl: '',
     thumbsnail: '',
-    meta: '',
+    movieID: '',
+    meta: null,
     loading: false,
     error: ''
   }
@@ -31,16 +32,17 @@ const TestImageUrl = 'https://images.fandango.com/ImageRenderer/0/0/redesign/sta
 // methods
 //
 export const componentDidMount =  (context) =>  async () => {
-  context.setState({loading: true})
   try {
     const movieName = context.props.match.params.movieName
+    context.setState({loading: true, movieID: movieName })
+
     const movie = await Api.getMovieByID(movieName)
     if (movie) {
       return context.setState({
         title: movie.Title || defaultState.title,
         discription: movie.discription || defaultState.discription,
         trailerUrl: movie.TrailerUrl ? (YOUTUBE_EMBED_URL + movie.TrailerUrl) : defaultState.trailerUrl,
-        thumbsnail: TestImageUrl,
+        thumbsnail: movie.thumbsnail || TestImageUrl,
         meta: meta,
         loading: defaultState.loading,
         error: defaultState.error,

@@ -25,7 +25,7 @@ const MovieMeta = ({ meta }) => {
 }
 
 MovieMeta.propTypes = {
-	meta: PropTypes.object.isRequired
+	meta: PropTypes.object
 }
 
 
