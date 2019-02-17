@@ -12,11 +12,11 @@ const RateGroup = ({ rate, imageUrl, size }) => {
 
 	return (
 		<div>
-			<button type="button" class="btn btn-outline-link rateg-btn"><img src={rate_1} width={size} /></button>
-			<button type="button" class="btn btn-outline-link rateg-btn"><img src={rate_2} width={size} /></button>
-			<button type="button" class="btn btn-outline-link rateg-btn"><img src={rate_3} width={size} /></button>
-			<button type="button" class="btn btn-outline-link rateg-btn"><img src={rate_4} width={size} /></button>
-			<button type="button" class="btn btn-outline-link rateg-btn"><img src={rate_5} width={size} /></button>
+			<button type="button" className="btn btn-outline-link rateg-btn"><img src={rate_1} width={size} /></button>
+			<button type="button" className="btn btn-outline-link rateg-btn"><img src={rate_2} width={size} /></button>
+			<button type="button" className="btn btn-outline-link rateg-btn"><img src={rate_3} width={size} /></button>
+			<button type="button" className="btn btn-outline-link rateg-btn"><img src={rate_4} width={size} /></button>
+			<button type="button" className="btn btn-outline-link rateg-btn"><img src={rate_5} width={size} /></button>
 		</div>
   )
 }
