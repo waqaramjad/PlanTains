@@ -1,0 +1,36 @@
+
+
+.movie-container {
+	color: white;
+	padding: 36px;
+	background-color: transparent;
+	background-color: #29302d;
+}
+
+.movie-detail-c {
+	padding-left: 36px;
+
+}
+
+.movie-tumbsnail-c {
+	justify-content: center
+
+}
+.movie-tumbsnail {
+	height: 100%;
+	width: 100%;
+	max-width: 300px;
+}
+
+.movie-rtm {
+	font-size: 1.3em;
+	justify-content: center;
+}
+
+.movie-btn-atw {
+  font-size: .8rem;
+}
+
+.movie-meta-item {
+	font-weight: bold;
+}
